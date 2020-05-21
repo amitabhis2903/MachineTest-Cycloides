@@ -15,6 +15,14 @@
 		650C10F22476F7C300FAE3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650C10F02476F7C300FAE3C9 /* LaunchScreen.storyboard */; };
 		650C10FB2476FA0900FAE3C9 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C10FA2476FA0900FAE3C9 /* MainTableViewController.swift */; };
 		650C10FE2476FCB800FAE3C9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C10FD2476FCB800FAE3C9 /* Extension.swift */; };
+		650C11012476FD9F00FAE3C9 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C11002476FD9F00FAE3C9 /* MainTableViewCell.swift */; };
+		650C11032477088B00FAE3C9 /* 80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 650C11022477088B00FAE3C9 /* 80.jpg */; };
+		650C1105247708F300FAE3C9 /* 86.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 650C1104247708F300FAE3C9 /* 86.jpg */; };
+		650C1108247711A400FAE3C9 /* CycloidesModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C1107247711A400FAE3C9 /* CycloidesModal.swift */; };
+		650C110B2477122B00FAE3C9 /* RowsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C110A2477122B00FAE3C9 /* RowsViewModal.swift */; };
+		650C110D2477133900FAE3C9 /* RowsListViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C110C2477133900FAE3C9 /* RowsListViewModal.swift */; };
+		650C110F2477149E00FAE3C9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C110E2477149E00FAE3C9 /* Constant.swift */; };
+		650C11122477150400FAE3C9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C11112477150400FAE3C9 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		650C10F32476F7C300FAE3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650C10FA2476FA0900FAE3C9 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		650C10FD2476FCB800FAE3C9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		650C11002476FD9F00FAE3C9 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		650C11022477088B00FAE3C9 /* 80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 80.jpg; sourceTree = "<group>"; };
+		650C1104247708F300FAE3C9 /* 86.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 86.jpg; sourceTree = "<group>"; };
+		650C1107247711A400FAE3C9 /* CycloidesModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycloidesModal.swift; sourceTree = "<group>"; };
+		650C110A2477122B00FAE3C9 /* RowsViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowsViewModal.swift; sourceTree = "<group>"; };
+		650C110C2477133900FAE3C9 /* RowsListViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowsListViewModal.swift; sourceTree = "<group>"; };
+		650C110E2477149E00FAE3C9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		650C11112477150400FAE3C9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,10 @@
 		650C10E42476F7C100FAE3C9 /* Machine_Test */ = {
 			isa = PBXGroup;
 			children = (
+				650C1110247714EA00FAE3C9 /* Service */,
+				650C1109247711FA00FAE3C9 /* ViewModal */,
+				650C11062477118000FAE3C9 /* Modal */,
+				650C10FF2476FD7700FAE3C9 /* View */,
 				650C10FC2476FC9900FAE3C9 /* Helper */,
 				650C10F92476F9C700FAE3C9 /* Controller */,
 				650C10E52476F7C100FAE3C9 /* AppDelegate.swift */,
@@ -68,6 +88,8 @@
 				650C10EB2476F7C100FAE3C9 /* Main.storyboard */,
 				650C10EE2476F7C300FAE3C9 /* Assets.xcassets */,
 				650C10F02476F7C300FAE3C9 /* LaunchScreen.storyboard */,
+				650C11022477088B00FAE3C9 /* 80.jpg */,
+				650C1104247708F300FAE3C9 /* 86.jpg */,
 				650C10F32476F7C300FAE3C9 /* Info.plist */,
 			);
 			path = Machine_Test;
@@ -85,8 +107,42 @@
 			isa = PBXGroup;
 			children = (
 				650C10FD2476FCB800FAE3C9 /* Extension.swift */,
+				650C110E2477149E00FAE3C9 /* Constant.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		650C10FF2476FD7700FAE3C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				650C11002476FD9F00FAE3C9 /* MainTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		650C11062477118000FAE3C9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				650C1107247711A400FAE3C9 /* CycloidesModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		650C1109247711FA00FAE3C9 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				650C110A2477122B00FAE3C9 /* RowsViewModal.swift */,
+				650C110C2477133900FAE3C9 /* RowsListViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		650C1110247714EA00FAE3C9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				650C11112477150400FAE3C9 /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +203,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650C1105247708F300FAE3C9 /* 86.jpg in Resources */,
 				650C10F22476F7C300FAE3C9 /* LaunchScreen.storyboard in Resources */,
+				650C11032477088B00FAE3C9 /* 80.jpg in Resources */,
 				650C10EF2476F7C300FAE3C9 /* Assets.xcassets in Resources */,
 				650C10ED2476F7C100FAE3C9 /* Main.storyboard in Resources */,
 			);
@@ -164,7 +222,13 @@
 				650C10FB2476FA0900FAE3C9 /* MainTableViewController.swift in Sources */,
 				650C10EA2476F7C100FAE3C9 /* ViewController.swift in Sources */,
 				650C10E62476F7C100FAE3C9 /* AppDelegate.swift in Sources */,
+				650C11012476FD9F00FAE3C9 /* MainTableViewCell.swift in Sources */,
+				650C110B2477122B00FAE3C9 /* RowsViewModal.swift in Sources */,
 				650C10E82476F7C100FAE3C9 /* SceneDelegate.swift in Sources */,
+				650C110F2477149E00FAE3C9 /* Constant.swift in Sources */,
+				650C11122477150400FAE3C9 /* Service.swift in Sources */,
+				650C1108247711A400FAE3C9 /* CycloidesModal.swift in Sources */,
+				650C110D2477133900FAE3C9 /* RowsListViewModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
