@@ -13,6 +13,8 @@
 		650C10ED2476F7C100FAE3C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650C10EB2476F7C100FAE3C9 /* Main.storyboard */; };
 		650C10EF2476F7C300FAE3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650C10EE2476F7C300FAE3C9 /* Assets.xcassets */; };
 		650C10F22476F7C300FAE3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650C10F02476F7C300FAE3C9 /* LaunchScreen.storyboard */; };
+		650C10FB2476FA0900FAE3C9 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C10FA2476FA0900FAE3C9 /* MainTableViewController.swift */; };
+		650C10FE2476FCB800FAE3C9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C10FD2476FCB800FAE3C9 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		650C10EE2476F7C300FAE3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		650C10F12476F7C300FAE3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		650C10F32476F7C300FAE3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650C10FA2476FA0900FAE3C9 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		650C10FD2476FCB800FAE3C9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		650C10E42476F7C100FAE3C9 /* Machine_Test */ = {
 			isa = PBXGroup;
 			children = (
+				650C10FC2476FC9900FAE3C9 /* Helper */,
+				650C10F92476F9C700FAE3C9 /* Controller */,
 				650C10E52476F7C100FAE3C9 /* AppDelegate.swift */,
 				650C10E72476F7C100FAE3C9 /* SceneDelegate.swift */,
 				650C10E92476F7C100FAE3C9 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				650C10F32476F7C300FAE3C9 /* Info.plist */,
 			);
 			path = Machine_Test;
+			sourceTree = "<group>";
+		};
+		650C10F92476F9C700FAE3C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				650C10FA2476FA0900FAE3C9 /* MainTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		650C10FC2476FC9900FAE3C9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				650C10FD2476FCB800FAE3C9 /* Extension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650C10FE2476FCB800FAE3C9 /* Extension.swift in Sources */,
+				650C10FB2476FA0900FAE3C9 /* MainTableViewController.swift in Sources */,
 				650C10EA2476F7C100FAE3C9 /* ViewController.swift in Sources */,
 				650C10E62476F7C100FAE3C9 /* AppDelegate.swift in Sources */,
 				650C10E82476F7C100FAE3C9 /* SceneDelegate.swift in Sources */,
@@ -287,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2WZ997HDM;
 				INFOPLIST_FILE = Machine_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2WZ997HDM;
 				INFOPLIST_FILE = Machine_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
